@@ -10,8 +10,8 @@ const GlobalStyle2 = createGlobalStyle`
         box-sizing: border-box;
     }
     body{
-        min-height:200vh;
-        background-color: #000000;
+        min-height:500vh;
+        background-color: #ffffff;
     }
     a{
         color: inherit;
