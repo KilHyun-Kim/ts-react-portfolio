@@ -5,15 +5,16 @@ const MainWrapper = styled.div`
   width: 100%;
   height: 100vh;
   display: flex;
+  justify-content: space-around;
 `;
 const EmailWrapper = styled.div`
-  width: 40%;
+  width: 20%;
   margin: 8%;
   border: 4px solid #000;
 `;
 const SvgWrapper = styled.div`
   width: 60%;
-  padding: 5%;
+  padding: 8%;
 `;
 function Main() {
   return (
