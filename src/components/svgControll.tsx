@@ -1,7 +1,10 @@
-import React from "react";
+import * as React from "react";
+import SvgComponent from "components/SvgComponent";
 
-const svgControll = () => {
-  return <div></div>;
+const { useEffect } = React;
+const SvgControll = () => {
+  useEffect(() => {}, []);
+  return <SvgComponent />;
 };
 
-export default svgControll;
+export default SvgControll;

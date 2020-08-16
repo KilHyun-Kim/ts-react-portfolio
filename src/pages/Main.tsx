@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import svg from "../svg/web_developer 1.svg";
+import SvgControll from "../components/SvgControll";
 const MainWrapper = styled.div`
   width: 100%;
   height: 100vh;
@@ -21,7 +22,7 @@ function Main() {
     <MainWrapper>
       <EmailWrapper></EmailWrapper>
       <SvgWrapper>
-        <img src={svg} alt="svg" />
+        <SvgControll />
       </SvgWrapper>
     </MainWrapper>
   );
